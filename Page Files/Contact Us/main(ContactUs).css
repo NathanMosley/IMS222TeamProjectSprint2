@@ -5,7 +5,16 @@
 }
 
 iframe {
-    float: right;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50%;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
