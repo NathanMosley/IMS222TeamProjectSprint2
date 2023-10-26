@@ -27,16 +27,17 @@
                 interval: 4000,
             });
         });
+
     </script>
 
     <style>
-
         body {
             font-family: sans-serif
         }
 
         h1 {
-            font-style: italic
+            font-style: italic;
+            font-family: text-serif;
         }
 
         h2 {
@@ -52,7 +53,7 @@
         #Answers {
             font-style: italic;
         }
-        
+
     </style>
 
 </head>
@@ -62,10 +63,10 @@
 <body>
     <nav>
         <div class="nav-wrapper blue darken-3">
-            <a href="#!" class="brand-logo center">FAQ</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <a href="#" class="brand-logo"><img class="center" src="NavigationIcon2-1.png" height="63"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#">Home</a></li>
+                <li><a href="information.html">Information</a></li>
                 <li><a href="About Us.html">About Us</a></li>
                 <li><a href="index(ContactUs).html">Contact Us</a></li>
                 <li><a href="faq.html">FAQ</a></li>
@@ -74,7 +75,8 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="information.html">Information</a></li>
         <li><a href="About Us.html">About Us</a></li>
         <li><a href="index(ContactUs).html">Contact Us</a></li>
         <li><a href="#">FAQ</a></li>
@@ -107,11 +109,11 @@
                 </tr>
                 <tr>
                     <td>How often do you update the website?</td>
-                    <td>We update the website as often as we can, but due to the conflicting schedules each member has within the Team, it makes collective time to communicate and fix bugs surprisingly rare. The last time this website was updates was September 29th, 2023</td>
+                    <td>We update the website as often as we can, but due to the conflicting schedules each member has within the Team, it makes collective time to communicate and fix bugs surprisingly rare. The last time this website was updates was October 26th, 2023</td>
                 </tr>
                 <tr>
                     <td>How do I contact the Team?</td>
-                    <td>We have a specific page dedicated to reaching out to the Team that is located on our <a href=index(ContactUs).html>Contact Us</a> page. You will likely get an automated response before receiving a message from the Team shortly through your provided information.</td>
+                    <td>We have a specific page dedicated to reaching out to the Team that is located on our <a href="index(ContactUs).html">Contact Us</a> page. You will likely get an automated response before receiving a message from the Team shortly through your provided information.</td>
                 </tr>
                 <tr>
                     <td>Why “G-16”?</td>
@@ -126,10 +128,30 @@
     </div>
 
     <footer class="page-footer blue darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Team G16</h5>
+                    <p class="grey-text text-lighten-4">Thank you for visiting our page!</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="information.html">Information</a></li>
+                        <li><a class="grey-text text-lighten-3" href="About Us.html">About Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="index(ContactUs).html">Contac tUs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2023 G16, All Rights Reserved
+                © 2023 Team G16
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
         </div>
     </footer>
-</body></html>
+</body>
+
+</html>
