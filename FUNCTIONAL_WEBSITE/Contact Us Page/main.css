@@ -1,0 +1,28 @@
+#cat {
+    color: blue;
+    text-align: center;
+    font-size: 200%;
+}
+
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50%;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 450%;
+}
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+}
